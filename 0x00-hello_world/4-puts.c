@@ -6,11 +6,11 @@
 #include <stdio.h>
 
 /**
- * main - entry point for the program
+ * main - it prints "Programming is like building a multilingual puzzle
  *
  * Description : This is a c program that prints something using puts function
  *
- * Return : must be  0 (success)
+ * Return : Always 0 (success)
  */
 
 int main(void)
