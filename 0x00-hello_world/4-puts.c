@@ -1,18 +1,16 @@
 /*
  * File: 4-puts.c
- * Author: mostafa414123
+ * Auth: Mostafa Khaled 
  */
 
 #include <stdio.h>
 
 /**
- * main - it prints phrase
+ * main - the output "Programming is like building a multilingual
+ *                puzzle, followed by a new line.
  *
- * Description : This is a c program that prints something using puts function
- *
- * Return : Always 0 (success)
+ * Return: should be 0.
  */
-
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
