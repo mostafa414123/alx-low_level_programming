@@ -3,7 +3,7 @@
 /**
   * main - Entry function for program
   *
-  * Description : Prints the numbers from 0 to 9
+  * Description : Prints the numbers from 0 to 9 as int type
   *
   * Return: Always 0 (Success)
   */
@@ -11,7 +11,7 @@ int main(void)
 {
         int number;
 
-        for (number = 0; number <= 9; number++)
+        for (number = '0'; number <= '9'; number++)
         {
                 putchar(number);
         }
