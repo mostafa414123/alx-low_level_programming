@@ -8,7 +8,7 @@
  * Description : Printing a phrase according to number input
  *
  * Return: Always 0 (Success)
-*/
+ */
 int main(void)
 {
 	int n, last_digit;
