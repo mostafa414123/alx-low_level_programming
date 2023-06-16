@@ -3,17 +3,17 @@
 /**
   * main - Entry function for program
   *
-  * Description : Prints the numbers from 0 to 9 as int type
+  * Description : Prints the alphabet at reverse
   *
   * Return: Always 0 (Success)
   */
 int main(void)
 {
-	int number;
+	char alpha;
 
-	for (n = '0'; n <= '9'; n++)
+	for (alpha = 'z'; alpha >= 'a'; alpha--)
 	{
-		putchar(n);
+		putchar(alpha);
 	}
 
 	putchar('\n');
