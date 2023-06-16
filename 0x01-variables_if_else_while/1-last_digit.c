@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry Function
+ * main - Entry Function for program
  *
  * Description : Printing a phrase according to number input
  *
