@@ -1,16 +1,17 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main - Entry Function
  *
  * Description : Printing a phrase according to number input
  *
  * Return: Always 0 (Success)
- */
+*/
 int main(void)
 {
-	int n;
+	int n, last_digit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
