@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-int _putchar(char x);
+int _putchar(char ch);
 
 #endif
 ~                                                                                                                                                                       
