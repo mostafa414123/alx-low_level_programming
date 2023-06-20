@@ -1,22 +1,23 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
-  * main - Entry point
+  * main - entry point
   *
-  * Description:  prints _putchar, followed by a new line
+  * Description: printing _putchar using _putchar function
   *
   * Return: Always 0
   */
+
 int main(void)
 {
-	_putchar('M');
-	_putchar('O');
-	_putchar('S');
-	_putchar('T');
-	_putchar('A');
-	_putchar('F');
-	_putchar('A');
-	_putchar('\n');
+	char i;
+	char arr[] = "_putchar";
 
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(arr[i]);
+	}
+	_putchar('\n');
 	return (0);
 }
+
