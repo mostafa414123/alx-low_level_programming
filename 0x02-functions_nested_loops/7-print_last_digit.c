@@ -9,9 +9,11 @@
 
 int print_last_digit(int n)
 {
+	int digit;
 	if (n < 0)
-		n *= -1;
-	n %= 10;
-	printf("%d", n);
-	return (n);
+		digit = (n % 10) * -1;
+	else
+		digit = n % 10;
+	_putchar(digit + '0');
+	return (digit);
 }
