@@ -1,22 +1,20 @@
-/**
-  * main - entry point
-  *
-  * Description: printing _putchar using _putchar function
-  *
-  * Return: Always 0
-  */
 #include "main.h"
+
+/**
+ * main - Entry point
+ *
+ * Description: use function _putchar to print my name
+ *
+ * Return: Always 0 (success)
+ */
 
 int main(void)
 {
+	char arr[] = "Mostafa";
 	char i;
-	char arr[] = "_putchar";
 
-	for (i = 0; i < 8; i++)
+	for (i = 0; i < 7; i++)
 	{
 		_putchar(arr[i]);
 	}
-	_putchar('\n');
-	return (0);
 }
-

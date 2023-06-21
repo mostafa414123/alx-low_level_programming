@@ -1,19 +1,13 @@
 #include <unistd.h>
-#include "main.h"
 
 /**
- * _putchar - function for printing a character
- *
- * Description: Write the character `c` to stdout
- * @c: The character to be printed
- *
- * Return: Always 1 (success)
+ * _putchar - the function used to write the character w to stdout
+ * @w: the character to print
+ * Return: On success 1.
+ * on error, -1 is returned, and error is set immediately
  */
-int _putchar(char c)
-{
-	int x;
-	x = write(1, &c, 1);
 
-	return (x);
+int _putchar(char w)
+{
+	return (write(1, &w, 1));
 }
-~
