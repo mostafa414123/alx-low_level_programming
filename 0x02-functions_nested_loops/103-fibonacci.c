@@ -22,7 +22,7 @@ int main(void)
 			fibonacci_1 = fibonacci_2;
 			fibonacci_2 = sum;
 		}
-		if (sum == 4000000)
+		if (sum <= 4000000)
 			printf("%.0f\n", result)
 		else
 			break;
