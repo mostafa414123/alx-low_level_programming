@@ -7,7 +7,7 @@
 void times_table(void)
 {
 	int number, multiple, product;
-	
+
 	for (number = 0; number <= 9; number++)
 	{
 		_putchar('0');
