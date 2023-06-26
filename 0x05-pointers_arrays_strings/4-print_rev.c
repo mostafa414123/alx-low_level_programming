@@ -7,14 +7,14 @@ void print_rev(char *s)
 {
 	int count = 0;
 
-	while (*str != '\0')
+	while (*s != '\0')
 	{
 		count++;
 	}
 	while (count >= 0)
 	{
-		printf("%c", str[count]);
-		str--;
+		printf("%c", s[count]);
+		s--;
 		count--;
 	}
 	printf("\n");
