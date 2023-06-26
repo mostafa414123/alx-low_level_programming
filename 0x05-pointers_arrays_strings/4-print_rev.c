@@ -14,6 +14,7 @@ void print_rev(char *s)
 	while (count >= 0)
 	{
 		printf("%c", str[count]);
+		str--;
 		count--;
 	}
 	printf("\n");
