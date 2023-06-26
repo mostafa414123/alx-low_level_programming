@@ -7,15 +7,13 @@ void print_rev(char *s)
 {
 	int count = 0;
 
-	while (*s != '\0')
+	while (s[count])
 	{
 		count++;
 	}
-	while (count >= 0)
+	while (count--)
 	{
-		printf("%c", s[count]);
-		s--;
-		count--;
+		_putchar(s[count]);
 	}
-	printf("\n");
+	_putchar('\n');
 }
