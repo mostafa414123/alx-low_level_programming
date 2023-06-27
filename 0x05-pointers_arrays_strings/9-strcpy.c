@@ -10,7 +10,7 @@ char *_strcpy(char *dest, char *src)
 {
 	int count = 0;
 
-	while (src[count])
+	while (src[count] == '\0')
 	{
 		dest[count] = src[count];
 		count++;
