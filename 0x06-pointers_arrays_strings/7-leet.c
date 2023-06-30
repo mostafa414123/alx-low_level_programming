@@ -6,7 +6,7 @@
  */
 char *leet(char *str)
 {
-	int c1 = 0, c2 = 0;
+	int c1 = 0, c2;
 	char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
 
 	while (str[c1])
@@ -15,8 +15,8 @@ char *leet(char *str)
 		{
 			if (str[c1] == leet[c2] || str[c1] - 32 == leet[c2])
 				str[c1] = c2 + '0';
-			c1++;
 		}
+		c1++;
 	}
 	return (str);
 }
