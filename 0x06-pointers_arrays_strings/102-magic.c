@@ -13,15 +13,15 @@ int main(void)
 	arr[2] = 1024;
 	ptr = &num;
 	/*
-	 * write your line of code here...
+	 * write the code here...
 	 * Remember:
-	 * - you are not allowed to use a
-	 * - you are not allowed to modify p
-	 * - only one statement
-	 * - you are not allowed to code anything else than this line of code
+	 * - you don't allow to use a
+	 * - you don't allow to modify p
+	 * - only use one statement
+	 * - you are allowed only use this line of code
 	 */
 	*(ptr + 5) = 98;
-	/* ...so that this prints 98\n */
+	/* this prints 98\n */
 	printf("arr[2] = %d\n", arr[2]);
 	return (0);
 }
