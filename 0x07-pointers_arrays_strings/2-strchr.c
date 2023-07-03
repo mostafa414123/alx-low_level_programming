@@ -8,7 +8,6 @@
 char *_strchr(char *s, char c)
 {
 	int count;
-	char index;
 
 	for (count = 0; s[count] >= '\0'; count++)
 	{
