@@ -13,8 +13,7 @@ char *_strchr(char *s, char c)
 	for (count = 0; s[count] >= '\0'; count++)
 	{
 		if (s[count] == c)
-			index = s + count;
+			return (s + count);
 	}
-	index += '\0';
-	return (index);
+	return ('\0');
 }
